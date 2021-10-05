@@ -1,0 +1,61 @@
+.content {
+    position: absolute;
+    top: -100%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    background: #F8F9FA;
+    color: var(--c-black);
+    width: 420px;
+    height: 60px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 30px;
+
+    border: 1px solid transparent;
+    border-radius: 4px;
+
+    transition: all .5s ease-in-out;
+}
+
+.alert__on {
+    display: flex;
+}
+
+.alert__off {
+    display: none;
+}
+
+.animation__on {
+    top: 40px;
+}
+
+.animation__off {
+    top: -100%;
+}
+
+.alert__successful {
+    background: #F0FDED;
+    color: #2A8815;
+    border-color:#2A8815;
+}
+
+.alert__error {
+    background: #FDEDED;
+    color: #921B1B;
+    border-color: #921B1B;
+}
+
+.alert__warning {
+    background: #FDF6ED;
+    color: #D37C0D;
+    border-color: #D37C0D;
+}
+
+.alert__info {
+    background: #EDF7ED;
+    color: #1F618D;
+    border-color:#1F618D;
+}
